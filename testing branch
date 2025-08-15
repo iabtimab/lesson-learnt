@@ -1,1 +1,48 @@
 Would you like to see a visual example of branching or learn how to merge branches back into master?
+Awesome, Benjamin! You're doing great. Git is telling you:
+
+- You're on the `master` branch.
+- You haven't made any commits yet.
+- There's one untracked file: `recalling lesson learnt`
+
+This means Git sees the file but isn’t tracking it yet. Let’s fix that.
+
+---
+
+### ✅ Step-by-Step: Track and Commit the File
+
+#### 1. **Stage the file**
+```bash
+git add "recalling lesson learnt"
+```
+If the filename has spaces, wrap it in quotes.
+
+#### 2. **Commit the file**
+```bash
+git commit -m "Add recalling lesson learnt"
+```
+
+Now Git will save that file in your local repository.
+
+---
+
+### 🔍 Check Your Work
+
+After committing, run:
+```bash
+git status
+```
+You should see:
+```
+On branch master
+nothing to commit, working tree clean
+```
+
+And to view your commit:
+```bash
+git log --oneline
+```
+
+---
+
+Would you like to learn how to create branches or undo a commit next?
