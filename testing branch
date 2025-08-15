@@ -3,7 +3,7 @@ Awesome, Benjamin! You're doing great. Git is telling you:
 
 - You're on the `master` branch.
 - You haven't made any commits yet.
-- There's one untracked file: `recalling lesson learnt`
+- There's one untracked file: `re
 
 This means Git sees the file but isn’t tracking it yet. Let’s fix that.
 
@@ -31,6 +31,7 @@ Now Git will save that file in your local repository.
 After committing, run:
 ```bash
 git status
+
 ```
 You should see:
 ```
@@ -46,3 +47,4 @@ git log --oneline
 ---
 
 Would you like to learn how to create branches or undo a commit next?
+jamin is here now
