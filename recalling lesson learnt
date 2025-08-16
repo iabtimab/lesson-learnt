@@ -2,8 +2,13 @@
 this is gettin
 3rd line of code
 benjamin 
+<<<<<<< HEAD
 5th line of code
 jamin 1st line of code
 jamin 2nd code line
 jamin 3rd line of code
 4th line of code
+=======
+timab timab
+test
+>>>>>>> tt
